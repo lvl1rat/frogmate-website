@@ -1,0 +1,161 @@
+/*https://coolors.co/palette/f4f1de-e07a5f-3d405b-81b29a-f2cc8f*/
+/*Elements*/
+body{
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
+    height: 100%;
+    position: absolute;
+}
+/*classes*/
+.header{
+    margin: 0;
+    padding: 55px 100px;
+    padding-bottom: 0;
+    background-color: #3D405B;
+    display: block;
+    position: static;
+    max-width: 100%;
+    height: 150px;
+    border: 30px solid #E07A5F;
+    border-left: 0;
+    border-right: 0;
+}
+.header h1{
+    margin: 0 500px -50px 20px;
+    padding: 0;
+    font-family: 'Amatic SC', cursive;
+    font-size: 70px;
+    color: #F2CC8F;
+    float: left;
+    display: inline-block;
+    position: relative;
+}
+.capital{
+    color: #E07A5F;
+}
+.nav-bar{
+    margin: 30px 10px 0 10px;
+    padding: 0;
+    display: inline-block;
+    justify-content: right;
+    position: relative;
+}
+.header tr{
+    margin: 0;
+    padding: 0;
+    font-family: 'Amatic SC', cursive;
+    font-size: 35px;
+    color: #F2CC8F;
+    display: block;
+    justify-content: right;
+    position: relative;
+
+}
+.middle{
+    margin: 0;
+    padding: 0;
+    display: block;
+    background-color: #F2CC8F;
+    max-width: 100%;
+    height: 100%;
+    position:static;
+}
+.middle img{
+    max-height: 200px;
+    width: auto;
+    border-radius: 100%;
+    margin: 100px 0 0 70px;
+    display: inline-block;
+}
+.body-greetings{
+    margin:0;
+    padding:0;
+    max-width: 100px;
+    max-height: auto;
+    font-family: 'Amatic SC', cursive;
+    position:relative;
+    bottom: 190px;
+    left: 300px;
+    
+}
+.body-name{
+    margin:0;
+    padding:0;
+    max-width: 100px;
+    max-height: auto;
+    font-family: 'Amatic SC', cursive;
+    color: #3D405B;
+    position:relative;
+    bottom: 190px;
+    left: 300px;
+}
+.body-p{
+    margin: 0;
+    padding: 0;
+    max-width: 50%;
+    max-height: auto;
+    font-size: 20px;
+    font-family: 'Amatic SC', cursive;
+    display: inline-block;
+    position:relative;
+    bottom: 250px;
+    left: 500px;
+}
+.footer{
+    margin: 0;
+    padding: 10px 0 0 40%;
+    display: block;
+    background-color: #81B29A;
+    max-width: 100%;
+    height: 150px;
+}
+.footer-contact{
+    text-align: center;
+    justify-content: center;
+    margin: 5px 20px 0 2%;
+    font-family: 'Amatic SC', cursive;
+    font-size: 30px;
+    font-weight: 500;
+    color: #3D405B;
+    text-decoration: none;
+}
+.copyright{
+    margin: 95px 0 0 8%;
+    font-family: 'Quattrocento Sans', sans-serif;
+    color: #3D405B;
+    font-size: 10px;
+}
+/*pseudo-classes*/
+/*nav-bar*/
+.nav-bar a:visited:hover{
+    text-decoration: none;
+    color: #81B29A;
+}
+ .nav-bar a:link{
+    text-decoration: none;
+    color: #E07A5F;
+}
+.nav-bar a:visited{
+    text-decoration: none;
+    color: #E07A5F;
+}
+.nav-bar a:active{
+    text-decoration: none;
+    color: #F4F1DE;
+}
+/*footer*/
+
+.footer-contact:visited:active:link:hover{
+    text-decoration: none;
+}
+.footer-contact:hover{
+    color: #E07A5F;
+}
+.footer-contact:hover:visited{
+    text-decoration: none;
+    color: #E07A5F;
+}
+.footer-contact:active{
+    color: #F4F1DE;
+}
